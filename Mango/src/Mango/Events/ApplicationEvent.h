@@ -6,6 +6,7 @@ namespace Mango {
 
 	class MANGO_API WindowResizeEvent : public Event
 	{
+	public:
 		WindowResizeEvent(unsigned int width, unsigned int height) : m_Width(width), m_Height(height) {}
 
 		unsigned int GetWidth() const { return m_Width; }
@@ -14,7 +15,7 @@ namespace Mango {
 		std::string ToString() const override
 		{
 			std::stringstream ss;
-			ss << "WindowResize" << m_Width << ", " << m_Height;
+			ss << "WindowResize: " << m_Width << ", " << m_Height;
 			return ss.str();
 		}
 

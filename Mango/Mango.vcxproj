@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BF3A0E7E-5E3B-4AB0-802B-722A853257E0}</ProjectGuid>
+    <ProjectGuid>{5771A70D-C385-CFBE-8C07-731EF8DACBEF}</ProjectGuid>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Mango</RootNamespace>

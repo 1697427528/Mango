@@ -12,17 +12,17 @@ namespace Mango {
 	Application::~Application()
 	{
 	}
-
+	
 	void Application::Run()
 	{
-		WindowResizeEvent *e = new WindowResizeEvent(1280, 720);
-		if (e->IsInCategory(EventCategoryApplication))
+		WindowResizeEvent e(1280, 720);
+		if (e.IsInCategory(EventCategoryApplication))
 		{
-			MG_CORE_TRACE(*e);
+			MG_CLIENT_TRACE(e);
 		}
-		if (e->IsInCategory(EventCategoryInput))
+		if (e.IsInCategory(EventCategoryInput))
 		{
-			MG_CORE_TRACE(*e);
+			MG_CLIENT_TRACE(e);
 		}
 
 		while (true);
