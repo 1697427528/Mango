@@ -4,8 +4,7 @@
 
 namespace Mango {
 
-	class MANGO_API Application
-	{
+	class MANGO_API Application {
 	public:
 		Application();
 		virtual ~Application();
@@ -15,4 +14,5 @@ namespace Mango {
 
 	// To be defined in CLIENT
 	Application* CreateApplication();
+
 }

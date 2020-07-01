@@ -1,0 +1,3 @@
+[submodule "Mango/vendor/spdlog"]
+	path = Mango/vendor/spdlog
+	url = https://github.com/gabime/spdlog

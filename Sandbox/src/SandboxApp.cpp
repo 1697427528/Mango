@@ -2,15 +2,16 @@
 
 class Sandbox : public Mango::Application {
 public:
-	Sandbox() {
+    Sandbox()
+    {
+    }
 
-	}
-
-	~Sandbox() {
-
-	}
+    ~Sandbox()
+    {
+    }
 };
 
-Mango::Application* Mango::CreateApplication() {
-	return new Sandbox();
+Mango::Application* Mango::CreateApplication()
+{
+    return new Sandbox();
 }
