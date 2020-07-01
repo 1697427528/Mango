@@ -148,6 +148,10 @@
     <ClInclude Include="src\Mango\Application.h" />
     <ClInclude Include="src\Mango\Core.h" />
     <ClInclude Include="src\Mango\EntryPoint.h" />
+    <ClInclude Include="src\Mango\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Mango\Events\Event.h" />
+    <ClInclude Include="src\Mango\Events\KeyEvent.h" />
+    <ClInclude Include="src\Mango\Events\MouseEvent.h" />
     <ClInclude Include="src\Mango\Log.h" />
   </ItemGroup>
   <ItemGroup>

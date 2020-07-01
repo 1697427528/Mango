@@ -4,6 +4,9 @@
     <Filter Include="Mango">
       <UniqueIdentifier>{5771A70D-C385-CFBE-8C07-731EF8DACBEF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mango\Events">
+      <UniqueIdentifier>{5B559370-47B8-2215-F03D-5BCBDC7FEE97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Mango.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Mango\EntryPoint.h">
       <Filter>Mango</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mango\Events\ApplicationEvent.h">
+      <Filter>Mango\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mango\Events\Event.h">
+      <Filter>Mango\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mango\Events\KeyEvent.h">
+      <Filter>Mango\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mango\Events\MouseEvent.h">
+      <Filter>Mango\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Mango\Log.h">
       <Filter>Mango</Filter>
